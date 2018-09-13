@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:600');
+body, html {
+	margin: 0px;
+	font-family: sans-serif;
+}
+
+.first-image {
+	width:100%;
+	height: 500px;
+}
+
+.texto1 {
+	text-align: center;
+	margin-top:15px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.box-group {
+	padding-top: 50px;
+	width: 100%;
+	height: 425px;
+}
+
+.box-style{
+	width: 28%;
+	margin-left: 5%;
+	margin-right: 3%;
+	height: 425px;
+	float: left;
+	border: 1px solid #000;
+	box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5);
+}
+.box-style-2 {
+	width: 28%;
+	margin-right: 3%;
+	height: 425px;
+	float: left;
+	border: 1px solid #000;
+	box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.box-style:hover{ 
+	box-shadow: 5px 20px 20px 0px grey; 
+}
+
+.box-style-2:hover{ 
+	box-shadow: 5px 20px 20px 0px grey; 
+}
+.box-img img {
+	width: 100%;
+	height: 270px;
+
+}
+
+.box-txt {
+	text-align: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.box-txt h2:hover {
+    color: #25baa9;
+	text-shadow: 1px 1px grey;
+}
+
+.box-last {
+	width: 28%;
+	height: 425px;
+	float: left;
+	border: 1px solid #000;
+	box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.box-last:hover{ 
+	box-shadow: 5px 20px 20px 0px grey; 
+}
+
+.contact-box {
+	background-color: #1e2136;
+}
+.contact-us {
+	margin-top: 30px;
+	height: 350px;
+	width: 100%;
+	background-image: url(../images/serv2.jpg);
+}
+
+.contact-txt {
+	text-align: center;
+	padding-top: 50px;
+}
+.contact-txt h2 {
+	color: #25baa9;
+	font-size: 2em;
+}
+.contact-txt h1 {
+	color: #cec075;
+}
+
+.contact-txt h3 {
+	color: white;
+	font-size: 2em;
+}
+
+.texto2 {
+	height: 470px;
+	width: 100%;
+	background-color: #efefef;
+}
+
+.txt {
+	float: left;
+	width: 50%;
+	padding-top: 90px;
+	padding-left: 110px;
+	font-size: 18px;
+}
+
+.video {
+	padding-top: 50px;
+	float: right;
+	height: 470px;
+	width: 40%;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.1s; /* Safari */
+    transition-duration: 0.1s;
+    cursor: pointer;
+    font-size: 26px;
+    border-radius: 12px;
+}
+
+.button1 {
+    background-color:  #25baa9; 
+    color: white; 
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #25baa91a;
+	border: 1px #25baa9 solid;
+}

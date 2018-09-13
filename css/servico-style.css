@@ -1,0 +1,53 @@
+body, html {
+	margin: 0px;
+	background: linear-gradient(white, #4677be9c);
+}
+.servico-top {
+	text-align: center;
+}
+.box{
+	height:430px;
+	width: 100%;
+}
+.box-2{
+	height:530px;
+	width: 100%;
+}
+.box1{
+	margin-top: 110px;
+	padding-top: 5px;
+	padding-left: 40px;
+	height:250px;
+	width: 40%;
+	background-color: #f4f4f4;
+	float: left;
+	margin-left:5%;
+	margin-right:5%; 
+	border: 1px solid #000;
+	box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-box{
+	float: left;
+}
+
+.box2{
+	margin-top: 110px;
+	padding-top: 5px;
+	padding-left: 40px;
+	height:250px;
+	width: 40%;
+	background-color: #f4f4f4;
+	float: left;
+	border: 1px solid #000;
+	box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.5);
+	font-family: Arial, Helvetica, sans-serif;
+}
+.txt-box1{
+	float: right;
+	width: 300px;
+	text-align: justify;
+	padding-left: 0px;
+	padding-right: 60px;
+}
